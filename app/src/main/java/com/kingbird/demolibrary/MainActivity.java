@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
         KLog.e("设备ID：" + mView.getDeviceId());
         KLog.e("获取经度：" + mView.getLongitude());
         KLog.e("获取纬度：" + mView.getLatitude());
-
         mView.bindDealer("填写即投云媒提供的ID号");
     }
 
